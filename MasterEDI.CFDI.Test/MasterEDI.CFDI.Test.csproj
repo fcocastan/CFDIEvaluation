@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MasterEDI.CFDI\MasterEDI.CFDI.Application\MasterEDI.CFDI.Application.csproj" />
-    <ProjectReference Include="..\MasterEDI.CFDI\MasterEDI.CFDI.Domain\MasterEDI.CFDI.Domain.csproj" />
+    <ProjectReference Include="..\MasterEDI.CFDI.Application\MasterEDI.CFDI.Application.csproj" />
+    <ProjectReference Include="..\MasterEDI.CFDI.Domain\MasterEDI.CFDI.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

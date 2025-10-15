@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Contract", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Api", "MasterEDI.CFDI.Api\MasterEDI.CFDI.Api.csproj", "{4DD30BB9-960F-4821-9C0E-03DC18803AFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Test", "..\MasterEDI.CFDI.Test\MasterEDI.CFDI.Test.csproj", "{0CACCF2B-A04E-4C01-9CB2-7849604D730E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Test", "MasterEDI.CFDI.Test\MasterEDI.CFDI.Test.csproj", "{3FCE794F-4337-8F16-312F-5B301D6F182A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCE794F-4337-8F16-312F-5B301D6F182A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCE794F-4337-8F16-312F-5B301D6F182A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCE794F-4337-8F16-312F-5B301D6F182A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCE794F-4337-8F16-312F-5B301D6F182A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
