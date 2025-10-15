@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Domain", "MasterEDI.CFDI.Domain\MasterEDI.CFDI.Domain.csproj", "{E0B50567-68DB-168C-8462-9E432062CBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Application", "MasterEDI.CFDI.Application\MasterEDI.CFDI.Application.csproj", "{802A5485-9841-635E-1E1C-4E1B3F3906EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Contract", "MasterEDI.CFDI.Contract\MasterEDI.CFDI.Contract.csproj", "{AD9C15E8-FB4C-531C-9B8E-BC69866EE9B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Api", "MasterEDI.CFDI.Api\MasterEDI.CFDI.Api.csproj", "{4DD30BB9-960F-4821-9C0E-03DC18803AFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterEDI.CFDI.Test", "..\MasterEDI.CFDI.Test\MasterEDI.CFDI.Test.csproj", "{0CACCF2B-A04E-4C01-9CB2-7849604D730E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B50567-68DB-168C-8462-9E432062CBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B50567-68DB-168C-8462-9E432062CBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B50567-68DB-168C-8462-9E432062CBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B50567-68DB-168C-8462-9E432062CBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802A5485-9841-635E-1E1C-4E1B3F3906EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802A5485-9841-635E-1E1C-4E1B3F3906EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802A5485-9841-635E-1E1C-4E1B3F3906EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802A5485-9841-635E-1E1C-4E1B3F3906EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9C15E8-FB4C-531C-9B8E-BC69866EE9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9C15E8-FB4C-531C-9B8E-BC69866EE9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9C15E8-FB4C-531C-9B8E-BC69866EE9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9C15E8-FB4C-531C-9B8E-BC69866EE9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD30BB9-960F-4821-9C0E-03DC18803AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CACCF2B-A04E-4C01-9CB2-7849604D730E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7256593D-ED36-4265-B4FC-83891505CD00}
+	EndGlobalSection
+EndGlobal
