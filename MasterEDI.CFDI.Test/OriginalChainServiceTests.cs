@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using MasterEDI.CFDI.Application.Services;
 using MasterEDI.CFDI.Domain.DTO;
-using Xunit;
 
 namespace MasterEDI.CFDI.Test
 {
@@ -45,7 +44,7 @@ namespace MasterEDI.CFDI.Test
                 SerialNumber = "SER123",
                 Folio = "FOL456",
                 Date = new DateTime(2024, 10, 14, 12, 0, 0, DateTimeKind.Utc),
-                Receptor = new Receptor { Rfc = "RFC789", Name = "John Doe" },
+                Receptor = new Receptor { Rfc = "RFC789", Name = "Carlos Adolfo" },
                 Concepts = new List<Concept>
                 {
                     new Concept { IdProduct = "P1", Description = "Desc1", Unity = 2, UnityValue = 10 },
@@ -62,10 +61,10 @@ namespace MasterEDI.CFDI.Test
             Assert.Contains("FOLIO:FOL456|", chain);
             Assert.Contains("FECHA:2024-10-14T12:00:00.0000000Z|", chain);
             Assert.Contains("RECEPTOR_RFC:RFC789|", chain);
-            Assert.Contains("RECEPTOR_NOMBRE:John Doe|", chain);
+            Assert.Contains("RECEPTOR_NOMBRE:Carlos Adolfo|".ToUpper(), chain);
             Assert.Contains("CONCEPTOS:<[", chain);
-            Assert.Contains("P1~Desc1~2:10", chain);
-            Assert.Contains("P2~Desc2~1:20", chain);
+            Assert.Contains("P1~Desc1~2:10".ToUpper(), chain);
+            Assert.Contains("P2~Desc2~1:20".ToUpper(), chain);
             Assert.Contains("SUBTOTAL:30.00|TOTAL:40.00", chain);
         }
 
@@ -90,8 +89,8 @@ namespace MasterEDI.CFDI.Test
             var service = new OriginalChainService();
             var chain = service.GenerateOriginalChain(bill);
 
-            var idxA = chain.IndexOf("A~DescA~2:2");
-            var idxB = chain.IndexOf("B~DescB~1:1");
+            var idxA = chain.IndexOf("A~DescA~2:2".ToUpper());
+            var idxB = chain.IndexOf("B~DescB~1:1".ToUpper());
             Assert.True(idxA < idxB, "Concepts should be ordered by IdProduct.");
         }
     }
